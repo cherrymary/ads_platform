@@ -1,0 +1,18 @@
+== README
+
+
+komandos :
+
+rails generate controller [NAME] - sukurti kontroleri [PAVADINIMAS] pavadinimas daugiskaitoj
+rails generate model [NAME] - sukurti modeli [PAVADINIMAS] visada vienaskaitoj
+rake db:migrate - paleidzia duobazes lenteliu kurimus, leidzia tik tas, kurios nebuvo paleistos(tu paciu lenteliu nebekurs)
+
+
+
+failai guli:
+
+app/controllers
+app/views
+app/models
+db/migrate -duombazes lenteliu ir stulpeliu  aprasymai
+config/routes.rb - resursu mappinimas su kontroleriais
